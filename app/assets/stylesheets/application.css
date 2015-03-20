@@ -1,0 +1,126 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or any plugin's vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any styles
+ * defined in the other CSS/SCSS files in this directory. It is generally better to create a new
+ * file per style scope.
+ *
+ *= require_tree .
+ *= require_self
+ */
+
+body {
+  font-family: "Open Sans", Arial, sans-serif;
+  background-color: #53626F;
+  color: #FFF;
+  padding: 0;
+  margin: 0;
+}
+
+.header {
+  background-color: rgba(0, 0, 0, .2);
+  padding: 10px;
+  font-weight: 300;
+}
+
+.header img {
+  float: left;
+  margin: 0 0 0 20px;
+}
+
+.header .logo-text {
+  float: left;
+  margin: 10px 0 0 10px;
+  display: inline-block;
+  font-size: 2em;
+  color: #AEBCCD;
+}
+
+.clearfix {
+  clear: both;
+  display: block;
+  height: 0;
+}
+
+.container {
+  width: 1000px;
+  margin: 150px auto 0 auto;
+}
+
+.photo {
+  float: left;
+  width: 600px;
+  height: 400px;
+  background-color: rgba(0, 0, 0, .2);
+  border-radius: 5px;
+}
+
+.name {
+  float: left;
+  margin: 0 0 5px 10px;
+  border: 0;
+  border-radius: 5px;
+  background-color: rgba(0, 0, 0, .2);
+  color: #FFF;
+  font-size: 2em;
+  padding: 10px;
+  width: 370px;
+}
+
+.autocomplete {
+  max-height: 330px;
+  padding: 0;
+  margin: 0 0 0 10px;
+  list-style: none;
+  float: left;
+  display: block;
+  width: 390px;
+  overflow: hidden;
+}
+
+.autocomplete li {
+  display: block;
+}
+
+.autocomplete li a {
+  background-color: rgba(0, 0, 0, .2);
+  border-radius: 5px;
+  text-decoration: none;
+  color: #FFF;
+  display: block;
+  padding: 10px;
+  margin: 5px 0 0 0;
+}
+
+.autocomplete li a:hover {
+  background-color: #709FB1;
+}
+
+.autocomplete li a span {
+  color: #BBB;
+  font-size: 12px;
+  float: right;
+}
+
+.submit {
+  width: 980px;
+  background-color: rgba(0, 0, 0, .2);
+  border-radius: 5px;
+  display: block;
+  padding: 10px;
+  margin: 10px 0 0 0;
+  color: rgba(0, 0, 0, .2);
+  text-decoration: none;
+  text-align: center;
+  font-size: 2em;
+}
+
+.success {
+  background-color: #b5ca62;
+  color: #FFF;
+}
